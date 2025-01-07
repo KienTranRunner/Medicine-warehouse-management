@@ -1,0 +1,21 @@
+@model IEnumerable<dynamic>
+
+@foreach (var item in Model)
+{
+    <tr>
+    <td>@item.TenThuoc</td>
+    <td>@item.HamLuong</td>
+    <td>@item.HoatChat</td>
+    <td>@item.DonViTinh</td>
+    <td>
+        <button type="button" class="btn btn-primary btn-icon-text" data-toggle="modal"
+            onclick="openInfoHangTon(@item.MaThuoc, '@item.TenThuoc')">
+            <i class="fa fa-cubes btn-icon-prepend"></i> Hàng tồn
+        </button>
+
+        <button type="button" class="btn btn-danger btn-icon-text" onclick="openThongKeTonKho(@item.MaThuoc, '@item.TenThuoc')">
+            <i class="fa  fa-pencil btn-icon-prepend"></i> Thống kê
+        </button>
+    </td>
+</tr>
+}

@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KhoThuocChienKhoi
+build_property.RootNamespace = KhoThuocChienKhoi
+build_property.ProjectDir = /Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/KhachHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0toYWNoSGFuZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/KhachHang/_KhachHangTableRows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0toYWNoSGFuZy9fS2hhY2hIYW5nVGFibGVSb3dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/KiemKho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0tpZW1LaG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/KiemKho/_ChiTietLo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0tpZW1LaG8vX0NoaVRpZXRMby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/KiemKho/_KiemKhoThuocTableRows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0tpZW1LaG8vX0tpZW1LaG9UaHVvY1RhYmxlUm93cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/LoThuocHetHan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL0xvVGh1b2NIZXRIYW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/NhaCungCap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL05oYUN1bmdDYXAvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/NhaCungCap/_NhaCungCapTableRows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL05oYUN1bmdDYXAvX05oYUN1bmdDYXBUYWJsZVJvd3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/NhapKho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL05oYXBLaG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/NhomThuoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL05ob21UaHVvYy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1NoYXJlZC9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/ThanhVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1RoYW5oVmllbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/ThanhVien/_ThanhVienTableRows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1RoYW5oVmllbi9fVGhhbmhWaWVuVGFibGVSb3dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/Thuoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1RodW9jL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/Thuoc/_ThuocTableRows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1RodW9jL19UaHVvY1RhYmxlUm93cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/TonKho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1Rvbktoby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/TonKho/_TonKhoTableRows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1Rvbktoby9fVG9uS2hvVGFibGVSb3dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Areas/Dashboard/Views/XuatKho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRGFzaGJvYXJkL1ZpZXdzL1h1YXRLaG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pj5ynosz79

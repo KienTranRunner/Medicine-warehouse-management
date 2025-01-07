@@ -1,0 +1,39 @@
+﻿@{
+  ViewData["Title"] = "Home Page";
+}
+
+<div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper bg-login-image">
+        <div class="content-wrapper d-flex align-items-center justify-content-center auth px-0">
+            <div class="col-lg-4 col-md-6 col-sm-8 mx-auto">
+                <div class="auth-form-light text-center py-5 px-4 px-sm-5 shadow-lg rounded">
+                    <h2 class="mb-4 fw-bold text-primary">Kho Thuốc Chiến Khôi</h2>
+                    <p class="mb-4 fw-light">Đăng nhập để bắt đầu</p>
+
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.Error</div>
+                    }
+
+                    <form class="pt-3" method="post" asp-action="Login">
+                        <div class="form-group mb-3 position-relative">
+                            <input type="text" name="username" class="form-control form-control-lg rounded-pill"
+                                placeholder="Mã nhân viên">
+                            <i class="fa fa-user icon-input"></i>
+                        </div>
+                        <div class="form-group mb-4 position-relative">
+                            <input type="password" name="password" class="form-control form-control-lg rounded-pill"
+                                placeholder="Mật khẩu">
+                            <i class="fa fa-lock icon-input"></i>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill fw-medium">
+                                Đăng nhập
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

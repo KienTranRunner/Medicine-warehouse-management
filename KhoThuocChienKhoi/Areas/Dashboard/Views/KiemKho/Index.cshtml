@@ -1,0 +1,205 @@
+@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Kiểm kho tháng " + ViewBag.Thang + "/" + ViewBag.Nam;
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card w3-animate-left">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Kiểm kho tháng @ViewBag.Thang/@ViewBag.Nam</h4>
+
+            <div class="form-group mt-4">
+                <div class="row align-items-center">
+                    <label for="nhomThuoc" class="col-auto col-form-label pr-2">Lọc theo nhóm thuốc:</label>
+
+                    <div class="col">
+                        <div class="input-group">
+                            <button class="btn btn-outline-primary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="nhomThuoc">
+                                @ViewBag.SelectedNhomName
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="?maNhom=">Tất cả</a>
+                                @foreach (var nhom in ViewBag.NhomThuocs)
+                                {
+                                    <a class="dropdown-item" href="?maNhom=@nhom.MaNhom">
+                                        @nhom.TenNhom
+                                    </a>
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="search-form" action="#" onsubmit="return false;">
+                <input type="search" id="searchInput" class="form-control" placeholder="Tìm kiếm thuốc"
+                    title="Search here">
+            </form>
+
+            <div class="table-responsive">
+                <table class="table table-striped" id="kiemKhoThuocTable">
+                    <thead>
+                        <tr>
+                            <th>Tên thuốc</th>
+                            <th>Hàm lượng</th>
+                            <th>Hoạt chất</th>
+                            <th>Đơn vị tính</th>
+                            <th>Số lượng trong hệ thống</th>
+                            <th>Chi tiết lô</th>
+                            <th>Số lượng thực tế</th>
+                            <th>Hư hỏng</th>
+                            <th>Chênh lệch</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TenThuoc</td>
+                                <td>@item.HamLuong</td>
+                                <td>@item.HoatChat</td>
+                                <td>@item.DonViTinh</td>
+                                <td>@item.TonCuoi</td>
+                                <td>
+                                    <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modalChiTietLo"
+                                        onclick="loadChiTietLo(@item.MaThuoc)">
+                                        Chi tiết lô
+                                    </button>
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control" id="soLuongThucTe_@item.MaTon"
+                                        value="@item.SoLuongThucTe" oninput="validatePositiveValue(this)" />
+                                </td>
+                                <td>@item.TongHuHong</td>
+                                <td>@item.ChenhLech</td>
+                                <td>
+                                    <button class="btn btn-success btn-sm" onclick="capNhatKiemKho(@item.MaTon)">Cập
+                                        nhật</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalChiTietLo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Chi tiết lô thuốc</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="chiTietLoContainer"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-primary" onclick="capNhatHuHong()">Cập nhật hư hỏng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function loadChiTietLo(maThuoc) {
+            $.ajax({
+                url: '/Dashboard/KiemKho/GetChiTietLo',
+                type: 'GET',
+                data: { maThuoc: maThuoc },
+                success: function (response) {
+                    $('#chiTietLoContainer').html(response);
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra, vui lòng thử lại!");
+                }
+            });
+        }
+
+        function capNhatHuHong() {
+            var chiTietHuHong = [];
+
+            $(".lo-thuoc-item").each(function () {
+                var soPhieu = $(this).data("sophieu");
+                var maThuoc = $(this).data("mathuoc");
+                var soLo = $(this).data("solo").toString(); // Chuyển thành chuỗi
+                var huHong = $(this).find(".hu-hong-input").val();
+
+                chiTietHuHong.push({ soPhieu, maThuoc, soLo, huHong });
+            });
+
+            $.ajax({
+                url: '/Dashboard/KiemKho/CapNhatHuHong',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(chiTietHuHong),
+                success: function (response) {
+                    alert(response.message);
+                    location.reload();
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra, vui lòng thử lại!");
+                }
+            });
+        }
+
+        function capNhatKiemKho(maTon) {
+            var soLuongThucTe = $("#soLuongThucTe_" + maTon).val();
+
+            $.ajax({
+                url: '/Dashboard/KiemKho/CapNhatKiemKho',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    MaTon: maTon,
+                    SoLuongThucTe: parseInt(soLuongThucTe)
+                }),
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        location.reload();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra, vui lòng thử lại!");
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchQuery = $(this).val();
+
+                $.ajax({
+                    url: '/Dashboard/KiemKho/Search',
+                    type: 'GET',
+                    data: { query: searchQuery },
+                    success: function (data) {
+                        $('#kiemKhoThuocTable tbody').html(data);
+                    }
+                });
+            });
+        });
+
+        function validatePositiveValue(input) {
+            const value = parseFloat(input.value);
+            if (value < 0) {
+                alert("Giá trị không hợp lệ: Không được nhập số âm.");
+                input.value = "";
+            }
+        }
+    </script>
+}

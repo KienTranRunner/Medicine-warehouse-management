@@ -1,0 +1,64 @@
+@model IEnumerable<dynamic>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Số phiếu</th>
+            <th>Số lô</th>
+            <th>Hạn sử dụng</th>
+            <th>Số lượng nhập</th>
+            <th>Số lượng xuất</th>
+            <th>Hư hỏng</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tbody>
+    @foreach (var lo in Model)
+    {
+        <tr class="lo-thuoc-item" 
+            data-sophieu="@lo.SoPhieu" 
+            data-mathuoc="@lo.MaThuoc" 
+            data-solo="@lo.SoLo" 
+            data-maxhuhong="@(@lo.SoLuongNhap - @lo.SoLuongXuat)">
+            <td>@lo.SoPhieu</td>
+            <td>@lo.SoLo</td>
+            <td>@lo.HanSuDung.ToString("dd/MM/yyyy")</td>
+            <td>@lo.SoLuongNhap</td>
+            <td>@lo.SoLuongXuat</td>
+            <td>
+                <input type="number" 
+                       class="form-control hu-hong-input" 
+                       value="@lo.HuHong" 
+                       min="0" 
+                       oninput="validatePositiveValue(this)" 
+                       onchange="checkHuHong(this)"/>
+            </td>
+        </tr>
+    }
+</tbody>
+
+</table>
+
+<script>
+    // Hàm để reset input nếu giá trị hư hỏng vượt quá số lượng còn lại
+function checkHuHong(input) {
+    const row = input.closest('.lo-thuoc-item'); // Lấy hàng hiện tại
+    const maxHuHong = parseInt(row.dataset.maxhuhong, 10); // Lấy giá trị max từ `data-maxhuhong`
+    const currentValue = parseInt(input.value, 10) || 0; // Giá trị nhập hiện tại (nếu null thì mặc định là 0)
+
+    if (currentValue > maxHuHong) {
+        alert(`Giá trị hư hỏng không thể vượt quá ${maxHuHong}`);
+        input.value = maxHuHong; // Reset lại giá trị input về giới hạn tối đa
+    }
+}
+
+// Đảm bảo giá trị nhập không âm
+function validatePositiveValue(input) {
+    if (parseInt(input.value, 10) < 0) {
+        input.value = 0; // Reset về 0 nếu người dùng nhập số âm
+    }
+}
+
+</script>
+
+

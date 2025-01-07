@@ -1,0 +1,20 @@
+@model IEnumerable<dynamic>
+
+@foreach (var item in Model)
+{
+    <tr>
+    <td>@item.TenNhaCungCap</td>
+    <td>@item.DiaChi</td>
+    <td>@item.SoDienThoai</td>
+    <td>
+        <button type="button" class="btn btn-primary btn-icon-text" data-toggle="modal" data-target="#editModal"
+            onclick="openEditModal(@item.MaNhaCungCap, '@item.TenNhaCungCap', '@item.DiaChi', '@item.SoDienThoai')">
+            <i class="fa fa-file btn-icon-prepend"></i> Sửa
+        </button>
+
+        <button type="button" class="btn btn-danger btn-icon-text" onclick="confirmDelete(@item.MaNhaCungCap)">
+            <i class="fa fa-trash btn-icon-prepend"></i> Xoá
+        </button>
+    </td>
+</tr>
+}

@@ -1,0 +1,281 @@
+@using System.Globalization
+@{
+    ViewData["Title"] = "Tồn kho ";
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+
+
+@model IEnumerable<dynamic>
+
+
+<div class="col-lg-12 grid-margin stretch-card w3-animate-left">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Danh sách tồn kho</h4>
+         
+
+
+
+            <form class="search-form" action="#" onsubmit="return false;">
+                <input type="search" id="searchInput" class="form-control mt-4" placeholder="Tìm kiếm thuốc"
+                    title="Search here">
+            </form>
+
+
+            <div class="table-responsive">
+                <table class="table table-striped" id="TonKhoTable">
+                    <thead>
+                        <tr>
+                            <th>Tên thuốc</th>
+                            <th>Hàm lượng</th>
+                            <th>Hoạt Chất</th>
+                            <th>Đơn vị tính</th>
+                            <th>Hàng động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tonKhoTableBody">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TenThuoc</td>
+                                <td>@item.HamLuong</td>
+                                <td>@item.HoatChat</td>
+                                <td>@item.DonViTinh</td>
+                                <td>
+                                    <button type="button" class="btn btn-primary btn-icon-text" data-toggle="modal"
+                                        onclick="openInfoHangTon(@item.MaThuoc, '@item.TenThuoc')">
+                                        <i class="fa fa-cubes btn-icon-prepend"></i> Hàng tồn
+                                    </button>
+
+                                    <button type="button" class="btn btn-danger btn-icon-text"
+                                        onclick="openThongKeTonKho(@item.MaThuoc, '@item.TenThuoc')">
+                                        <i class="fa  fa-pencil btn-icon-prepend"></i> Thống kê
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoModalLabel">Hàng tồn của thuốc</h5>
+                <button type="button" class="close" data-dismiss="modal" onclick="$('#infoModal').modal('hide')"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered mt-3" id="infoMedicinesTable">
+                        <thead>
+                            <tr>
+                                <th>Số lô</th>
+                                <th>Hạn sử dụng</th>
+                                <th>Số lượng đã nhập </th>
+                                <th>Số lượng đã xuất </th>
+                                <th>Hư hỏng của lô </th>
+                                <th>Số lượng hiện tại</th>
+                            </tr>
+                        </thead>
+                        <tbody id="infoMedicinesBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openInfoHangTon(maThuoc, tenThuoc) {
+        document.getElementById('infoModalLabel').innerText = `Hàng tồn của thuốc: ${tenThuoc}`;
+
+        $.ajax({
+            url: `/Dashboard/TonKho/chiTietLo/${maThuoc}`,
+            method: 'GET',
+            success: function (medicineDetails) {
+                const tbody = document.getElementById('infoMedicinesBody');
+                tbody.innerHTML = '';
+
+                medicineDetails.forEach(detail => {
+                    const row = `
+                   <tr>
+                       <td>${detail.soLo}</td>
+                       <td>${detail.hanSuDung ? new Intl.DateTimeFormat('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(new Date(detail.hanSuDung)) : 'N/A'}</td>
+                       <td>${detail.soLuongNhap}</td>
+                       <td>${detail.soLuongXuat}</td>
+                       <td>${detail.soLuongHuHong}</td>
+                       <td>${detail.soLuongHienTai}</td>
+                   </tr>
+                    `;
+                    tbody.insertAdjacentHTML('beforeend', row);
+                });
+
+                $('#infoModal').modal('show');
+            },
+            error: function () {
+                alert("Không thể tải dữ liệu hàng tồn.");
+            }
+        });
+    }
+</script>
+
+
+<div class="modal fade" id="thongKeModal" tabindex="-1" role="dialog" aria-labelledby="thongKeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="thongKeModalLabel">Thống kê tồn kho của thuốc</h5>
+                <button type="button" class="close" data-dismiss="modal" onclick="$('#thongKeModal').modal('hide')"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Dropdown chọn Tháng -->
+                <div class="form-inline mb-3">
+                    <label for="selectThang" class="mr-2">Chọn tháng:</label>
+                    <select id="selectThang" class="form-control mr-4">
+                        <option value="">Tất cả</option>
+                        @for (int i = 1; i <= 12; i++)
+                        {
+                            <option value="@i">Tháng @i</option>
+                        }
+                    </select>
+
+                    <!-- Dropdown chọn Năm -->
+                    <label for="selectNam" class="mr-2 mt-3">Chọn năm:</label>
+                    <select id="selectNam" class="form-control">
+                        <option value="">Tất cả</option>
+                        @for (int year = DateTime.Now.Year - 3; year <= DateTime.Now.Year; year++)
+                        {
+                            <option value="@year">@year</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered mt-3" id="thongKeTable">
+                        <thead>
+                            <tr>
+                                <th>Tháng</th>
+                                <th>Năm</th>
+                                <th>Tồn đầu</th>
+                                <th>Tổng nhập</th>
+                                <th>Tổng xuất</th>
+                                <th>Hư hỏng</th>
+                                <th>Tồn cuối</th>
+                            </tr>
+                        </thead>
+                        <tbody id="thongKeBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openThongKeTonKho(maThuoc, tenThuoc) {
+        document.getElementById('thongKeModalLabel').innerText = `Thống kê tồn kho của thuốc: ${tenThuoc}`;
+
+        function loadThongKeTonKho() {
+            const thang = document.getElementById('selectThang').value;
+            const nam = document.getElementById('selectNam').value;
+
+            $.ajax({
+                url: `/Dashboard/TonKho/ByMaThuoc/${maThuoc}`,
+                method: 'GET',
+                data: { thang: thang, nam: nam },
+                success: function (tonKhoRecords) {
+                    const tbody = document.getElementById('thongKeBody');
+                    tbody.innerHTML = '';
+
+                    tonKhoRecords.forEach(record => {
+                        const row = `
+                   <tr>
+                       <td>${record.thang}</td>
+                       <td>${record.nam}</td>
+                       <td>${record.tonDau}</td>
+                       <td>${record.tongNhap}</td>
+                       <td>${record.tongXuat}</td>
+                       <td>${record.huHong}</td>
+                       <td>${record.tonCuoi}</td>
+                   </tr>
+                `;
+                        tbody.insertAdjacentHTML('beforeend', row);
+                    });
+
+                    $('#thongKeModal').modal('show');
+                },
+                error: function () {
+                    alert("Không thể tải dữ liệu thống kê tồn kho.");
+                }
+            });
+        }
+
+        loadThongKeTonKho();
+
+        $('#selectThang').change(loadThongKeTonKho);
+        $('#selectNam').change(loadThongKeTonKho);
+    }
+
+
+</script>
+
+<script>
+    function generateBaoCao() {
+        $.ajax({
+            url: '/Dashboard/TonKho/GenerateBaoCao',
+            method: 'POST',
+            success: function () {
+                alert("Báo cáo tháng mới đã được cập nhật thành công.");
+            },
+            error: function () {
+                alert("Không thể cập nhật báo cáo tháng mới.");
+            }
+        });
+    }
+
+</script>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchQuery = $(this).val();
+
+                $.ajax({
+                    url: '/Dashboard/TonKho/Search',
+                    type: 'GET',
+                    data: { query: searchQuery },
+                    success: function (data) {
+                        $('#tonKhoTableBody').html(data);
+                    },
+                    error: function () {
+                        alert("Không thể tải dữ liệu tìm kiếm.");
+                    }
+                });
+            });
+        });
+
+
+    </script>
+}

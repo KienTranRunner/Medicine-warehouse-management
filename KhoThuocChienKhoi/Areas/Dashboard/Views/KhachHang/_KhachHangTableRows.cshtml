@@ -1,0 +1,25 @@
+@using System.Globalization
+@model IEnumerable<dynamic>
+
+@foreach (var item in Model)
+{
+    <tr>
+    <td>@item.MaKhachHang</td>
+    <td>@item.TenKhachHang</td>
+    <td>@item.DiaChi</td>
+    <td>@item.SoDienThoai</td>
+    <td>@item.SoTienKhachMua.ToString("C0", new CultureInfo("vi-VN"))</td>
+
+    <td>
+        <button type="button" class=" btn btn-primary btn-icon-text" data-toggle="modal" data-target="#editModal"
+            onclick="openEditModal(@item.MaKhachHang, '@item.TenKhachHang', '@item.DiaChi', '@item.SoDienThoai')">
+            <i class="fa fa-file btn-icon-prepend"></i> Sửa
+        </button>
+
+        <button type="button" class="btn btn-danger btn-icon-text" onclick="confirmDelete(@item.MaKhachHang)">
+            <i class="fa fa-trash btn-icon-prepend"></i> Xoá
+        </button>
+
+    </td>
+</tr>
+}

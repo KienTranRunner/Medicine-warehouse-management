@@ -1,0 +1,121 @@
+@using System.Globalization
+@{
+    ViewData["Title"] = "Nhập kho ";
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="home-tab">
+            <div class="d-sm-flex align-items-center justify-content-between border-bottom">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active ps-0" id="home-tab" data-bs-toggle="tab" href="#LoThuocHetHan"
+                            role="tab" aria-controls="overview" aria-selected="true">Lô thuốc hết hạn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#LoThuocSapHetHan" role="tab"
+                            aria-selected="false">Lô thuốc sắp hết hạn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content tab-content-basic">
+                <div class="tab-pane fade show active" id="LoThuocHetHan" role="tabpanel"
+                    aria-labelledby="LoThuocHetHan">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Số lô</th>
+                                            <th>Số phiếu </th>
+                                            <th>Tên thuốc</th>
+                                            <th>Số lượng còn lại </th>
+                                            <th>Hạn sử dụng</th>
+                                            <th>Trạng thái </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in ViewBag.loHetHan)
+                                        {
+                                            <tr>
+                                                <td>@item.SoLo</td>
+                                                <td>@item.SoPhieu</td>
+                                                <td>@item.TenThuoc</td>
+                                                <td>@item.SoLuongHienTai</td>
+                                                <td>@item.HanSuDung.ToString("dd/MM/yyyy")</td>
+                                                <td><label class="badge badge-danger">Hết hạn</label></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="LoThuocSapHetHan" role="tabpanel" aria-labelledby="LoThuocSapHetHan">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Số lô</th>
+                                            <th>Số phiếu </th>
+                                            <th>Tên thuốc</th>
+                                            <td>Số lượng còn lại </td>
+                                            <th>Hạn sử dụng</th>
+                                            <th>Trạng thái</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in ViewBag.loSapHetHan)
+                                        {
+                                            <tr>
+                                                <td>@item.SoLo</td>
+                                                <td>@item.SoPhieu</td>
+                                                <td>@item.TenThuoc</td>
+                                                <td>@item.SoLuongHienTai</td>
+                                                <td>@item.HanSuDung.ToString("dd/MM/yyyy")</td>
+                                                <td>
+                                                    <span id="countdown-@item.SoLo"></span>
+                                                    <script>
+                                                        (function () {
+                                                            var expirationDate = new Date("@item.HanSuDung.ToString("yyyy-MM-dd")");
+                                                            var countdownElement = document.getElementById("countdown-@item.SoLo");
+
+                                                            var x = setInterval(function () {
+                                                                var now = new Date().getTime();
+                                                                var distance = expirationDate - now;
+
+                                                                if (distance < 0) {
+                                                                    clearInterval(x);
+                                                                    countdownElement.innerHTML = "Hết hạn";
+                                                                    return;
+                                                                }
+
+                                                                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                                                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                                                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                                                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                                                countdownElement.innerHTML = "Còn "+ days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                                                            }, 1000);
+                                                        })();
+                                                    </script>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

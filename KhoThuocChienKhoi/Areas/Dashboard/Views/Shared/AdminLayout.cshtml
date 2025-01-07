@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin</title>
+
+    <link rel="stylesheet" href="~/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/vendors/typicons/typicons.css">
+    <link rel="stylesheet" href="~/vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="~/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="~/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="~/js/select.dataTables.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/images/favicon.png" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="~/vendors/font-awesome/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Styles", required: false)
+
+    <style>
+        .card {
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+    <style>
+        .hu-hong-input {
+            width: 80px;
+            /* Giới hạn chiều rộng */
+            text-align: center;
+            /* Căn giữa văn bản */
+            padding: 5px;
+            /* Cách đều nội dung */
+            border: 1px solid #ccc;
+            /* Đường viền */
+            border-radius: 4px;
+            /* Bo góc */
+        }
+
+        .hu-hong-input:focus {
+            border-color: #4CAF50;
+            /* Màu viền khi focus */
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+            /* Hiệu ứng đổ bóng */
+        }
+    </style>
+
+
+
+
+</head>
+
+
+<body>
+    <div class="container-scroller">
+
+
+        <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+                <div class="me-3">
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button"
+                        data-bs-toggle="minimize">
+                        <span class="icon-menu"></span>
+                    </button>
+                </div>
+                <div>
+                    <a class="navbar-brand brand-logo" href="@Url.Action("Index", "Dashboard")">
+                        <img src="~/images/logo.svg" alt="logo" />
+                    </a>
+                    <a class="navbar-brand brand-logo-mini" href="@Url.Action("Index", "Dashboard")">
+                        <img src="~/images/logo-mini.svg" alt="logo" />
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-top">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item d-none d-lg-block">
+                        <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
+                            <span class="input-group-addon input-group-prepend border-right">
+                                <span class="icon-calendar input-group-text calendar-icon"></span>
+                            </span>
+                            <input type="text" class="form-control">
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+                        <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-user-circle fa-2x rounded-circle" aria-hidden="true"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                            <div class="dropdown-header text-center">
+                                <i class="fa fa-user-circle fa-2x rounded-circle" aria-hidden="true"></i>
+                                <p class="mb-1 mt-3 fw-semibold">@User.FindFirst("HoTen")?.Value</p>
+                                <p class="fw-light text-muted mb-0">Mã nhân viên: @User.FindFirst("MaNhanVien")?.Value
+                                </p>
+                                <p class="fw-light text-muted mb-0">Vai trò: @User.FindFirst("VaiTro")?.Value</p>
+                                <p class="fw-light text-muted mb-0">Mã tài khoản: @User.FindFirst("MaTaiKhoan")?.Value
+                                </p>
+                            </div>
+                            <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                data-bs-target="#changePasswordModal">
+                                <i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> Đổi mật
+                                khẩu
+                            </a>
+                            <a class="dropdown-item" href="@Url.Action("Logout", "Home")">
+                                <i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Đăng xuất
+                            </a>
+
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-bs-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="container-fluid page-body-wrapper">
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Dashboard")">
+                            <i class="mdi mdi-grid-large menu-icon"></i>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-category">Chức năng</li>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "ThanhVien")">
+                                <i class="menu-icon fa fa-users"></i>
+                                <span class="menu-title">Quản lý thành viên</span>
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "NhaCungCap")">
+                                <i class="menu-icon fa fa-truck"></i>
+                                <span class="menu-title">Nhà cung cấp</span>
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "KhachHang")">
+                                <i class="menu-icon fa fa-user"></i>
+                                <span class="menu-title">Quản lý khách hàng</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="collapse" href="#QL_Thuoc" aria-expanded="false"
+                                aria-controls="QL_Thuoc">
+                                <i class="menu-icon fa fa-medkit"></i>
+                                <span class="menu-title">Quản lý thuốc</span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="collapse" id="QL_Thuoc">
+                                <ul class="nav flex-column sub-menu">
+                                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "NhomThuoc")">
+                                            Nhóm thuốc</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Thuoc")">
+                                            Thuốc</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    }
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#Ql_Kho" aria-expanded="false"
+                            aria-controls="Ql_Kho">
+                            <i class="menu-icon fa fa-archive"></i>
+                            <span class="menu-title">Quản lý Nhập/Xuất</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="Ql_Kho">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="@Url.Action("Index", "NhapKho")">
+                                        Nhập kho</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="@Url.Action("Index", "XuatKho")">Xuất
+                                        kho</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#Ql_HangHoa" aria-expanded="false"
+                            aria-controls="Ql_HangHoa">
+                            <i class="menu-icon fa fa-bank"></i>
+                            <span class="menu-title">Kho Hàng</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="Ql_HangHoa">
+                            <ul class="nav flex-column sub-menu">
+
+
+                                <li class="nav-item"> <a class="nav-link" href="@Url.Action("Index", "TonKho")">
+                                        Tồn kho</a></li>
+
+                                <li class="nav-item"> <a class="nav-link" href="@Url.Action("Index", "KiemKho")">
+                                        Kiểm kho</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "LoThuocHetHan")">
+                            <i class="menu-icon fa fa-clock-o"></i>
+                            <span class="menu-title">Lô thuốc hết hạn</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="container">
+                        <main role="main" class="pb-3">
+                            @RenderBody()
+
+                            <!-- Đặt đoạn code này ở cuối AdminLayout.cshtml hoặc nơi nào bạn muốn hiển thị modal -->
+                            <div class="modal fade" id="changePasswordModal" tabindex="-1"
+                                aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="changePasswordModalLabel">Đổi mật khẩu</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="changePasswordForm">
+                                                <div class="mb-3">
+                                                    <label for="currentPassword" class="form-label">Mật khẩu hiện
+                                                        tại</label>
+                                                    <input type="password" class="form-control" id="currentPassword"
+                                                        required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="newPassword" class="form-label">Mật khẩu mới</label>
+                                                    <input type="password" class="form-control" id="newPassword"
+                                                        required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="confirmPassword" class="form-label">Xác nhận mật khẩu
+                                                        mới</label>
+                                                    <input type="password" class="form-control" id="confirmPassword"
+                                                        required>
+                                                </div>
+                                                <button type="button" class="btn btn-primary" id="btnChangePassword">Xác
+                                                    nhận</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                $(document).ready(function () {
+                                    $("#btnChangePassword").click(function () {
+                                        const currentPassword = $("#currentPassword").val();
+                                        const newPassword = $("#newPassword").val();
+                                        const confirmPassword = $("#confirmPassword").val();
+
+                                        if (newPassword !== confirmPassword) {
+                                            alert("Mật khẩu mới và xác nhận mật khẩu không khớp!");
+                                            return;
+                                        }
+
+                                        $.ajax({
+                                            url: "/Home/ChangePassword",
+                                            type: "POST",
+                                            data: {
+                                                currentPassword: currentPassword,
+                                                newPassword: newPassword
+                                            },
+                                            success: function (response) {
+                                                if (response.success) {
+                                                    alert("Đổi mật khẩu thành công!");
+                                                    $('#changePasswordModal').modal('hide');
+                                                } else {
+                                                    alert(response.message);
+                                                }
+                                            },
+                                            error: function () {
+                                                alert("Có lỗi xảy ra!");
+                                            }
+                                        });
+                                    });
+                                });
+                            </script>
+
+
+
+
+                        </main>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="~/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="~/vendors/chart.js/chart.umd.js"></script>
+    <script src="~/vendors/progressbar.js/progressbar.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="~/js/off-canvas.js"></script>
+    <script src="~/js/template.js"></script>
+    <script src="~/js/settings.js"></script>
+    <script src="~/js/hoverable-collapse.js"></script>
+    <script src="~/js/todolist.js"></script>
+
+    <script src="~/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="~/js/dashboard.js"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            var currentPath = window.location.pathname;
+
+            $('.nav-item').removeClass('active');
+            $('.collapse').removeClass('show');
+
+            $('.nav-item a').each(function () {
+                var linkPath = $(this).attr('href');
+
+                if (currentPath === linkPath) {
+                    $(this).closest('.nav-item').addClass('active');
+
+                    var parentCollapse = $(this).closest('.collapse');
+                    if (parentCollapse.length) {
+                        parentCollapse.addClass('show');
+                        parentCollapse.closest('.nav-item').find('[data-bs-toggle="collapse"]').attr('aria-expanded', 'true');
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('#editModal').on('hidden.bs.modal', function () {
+            $('body').removeClass('modal-open');
+            $('.modal-backdrop').remove();
+            $(this).find('form')[0].reset();
+        });
+
+        function closeEditModal() {
+            $('#editModal').modal('hide');
+        }
+
+        $('#infoModal').on('hidden.bs.modal', function () {
+            $('body').removeClass('modal-open');
+            $('.modal-backdrop').remove();
+            $(this).find('form')[0]?.reset();
+        });
+
+        function closeInfoModal() {
+            $('#infoModal').modal('hide');
+        }
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#submitChangePassword').on('click', function () {
+                const oldPassword = $('#OldPassword').val();
+                const newPassword = $('#NewPassword').val();
+                const confirmPassword = $('#ConfirmPassword').val();
+
+                if (newPassword !== confirmPassword) {
+                    $('#changePasswordMessage').removeClass('d-none alert-success').addClass('alert-danger').text('Mật khẩu mới và xác nhận mật khẩu không khớp.');
+                    return;
+                }
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/Dashboard/DoiMatKhau/ChangePasswordAjax',
+                    data: {
+                        oldPassword: oldPassword,
+                        newPassword: newPassword,
+                        confirmPassword: confirmPassword
+                    },
+                    success: function (response) {
+                        $('#changePasswordMessage').removeClass('d-none').addClass(response.success ? 'alert-success' : 'alert-danger').text(response.message);
+                        if (response.success) {
+                            $('#changePasswordForm')[0].reset();
+                            setTimeout(() => {
+                                $('#changePasswordModal').modal('hide');
+                                $('#changePasswordMessage').addClass('d-none');
+                            }, 2000);
+                        }
+                    },
+                    error: function () {
+                        $('#changePasswordMessage').removeClass('d-none alert-success').addClass('alert-danger').text('Đã xảy ra lỗi, vui lòng thử lại.');
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Thuốc ";
+}
+@{
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+@model IEnumerable<dynamic>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Danh sách thuốc</h4>
+            <button type="button" class="btn btn-danger btn-icon-text" data-toggle="modal" data-target="#createModal">
+                <i class=" fa fa-plus btn-icon-prepend"></i> Thêm thuốc </button>
+            
+            <div class="form-group mt-4">
+                <div class="row align-items-center">
+                    <label for="nhomThuoc" class="col-auto col-form-label pr-2">Lọc theo nhóm thuốc:</label>
+
+                    <div class="col">
+                        <div class="input-group">
+                            <button class="btn btn-outline-primary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="nhomThuoc">
+                                @ViewBag.SelectedNhomName
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="?maNhom=">Tất cả</a>
+                                @foreach (var nhom in ViewBag.NhomThuocs)
+                                {
+                                    <a class="dropdown-item" href="?maNhom=@nhom.MaNhom">
+                                        @nhom.TenNhom
+                                    </a>
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="search-form" action="#" onsubmit="return false;">
+                <input type="search" id="searchInput" class="form-control" placeholder="Tìm kiếm thuốc"
+                    title="Search here">
+            </form>
+
+            <div class="table-responsive">
+                <table class="table table-striped" id="thuocTable">
+                    <thead>
+                        <tr>
+                            <th>Mã thuốc</th>
+                            <th>Tên Thuốc</th>
+                            <th>Hàm lượng</th>
+                            <th>Hoạt chất</th>
+                            <th>Đơn vị tính</th>
+                            <th>Giá</th>
+                            <th>Nhóm thuốc</th>
+                            <th>Hàng động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MaThuoc</td>
+                                <td>@item.TenThuoc</td>
+                                <td>@item.HamLuong</td>
+                                <td>@item.HoatChat</td>
+                                <td>@item.DonViTinh</td>
+                                <td>@item.Gia.ToString("C0", new CultureInfo("vi-VN"))</td>
+                                <td>@item.TenNhom</td>
+
+                                <td>
+                                    <button type="button" class=" btn btn-primary btn-icon-text" data-toggle="modal"
+                                        data-target="#editModal"
+                                        onclick="openEditModal(@item.MaThuoc, '@item.TenThuoc', '@item.HamLuong', '@item.HoatChat', '@item.DonViTinh', '@item.Gia', @item.MaNhom )">
+                                        <i class="fa fa-file btn-icon-prepend"></i> Sửa
+                                    </button>
+                                    <button type="button" class="btn btn-danger btn-icon-text"
+                                        onclick="confirmDelete(@item.MaThuoc)">
+                                        <i class="fa fa-trash btn-icon-prepend"></i> Xoá
+                                    </button>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Thêm thuốc mới</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="/Dashboard/Thuoc/Create" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <label for="TenThuoc">Tên thuốc</label>
+                        <input type="text" class="form-control" id="TenThuoc" name="TenThuoc" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="HamLuong">Hàm lượng</label>
+                        <input type="text" class="form-control" id="HamLuong" name="HamLuong" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="HoatChat">Hoạt chất</label>
+                        <input type="text" class="form-control" id="HoatChat" name="HoatChat" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="DonViTinh">Đơn vị tính</label>
+                        <input type="text" class="form-control" id="DonViTinh" name="DonViTinh" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Gia">Giá</label>
+                        <input type="text" class="form-control" id="Gia" name="Gia" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaNhom">Nhóm thuốc</label>
+                        <select class="form-control" id="MaNhom" name="MaNhom" required>
+                            <option value="">Chọn nhóm thuốc</option>
+                            @foreach (var nhom in ViewBag.NhomThuocs)
+                            {
+                                <option value="@nhom.MaNhom">@nhom.TenNhom</option>
+                            }
+                        </select>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Sửa thông tin thuốc</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="_method" value="put" />
+                    <div class="form-group">
+                        <label for="editMaThuoc">Mã thuốc</label>
+                        <input type="number" class="form-control" id="editMaThuoc" name="MaThuoc" readonly />
+                    </div>
+                    <div class="form-group">
+                        <label for="TenThuoc">Tên thuốc</label>
+                        <input type="text" class="form-control" id="editTenThuoc" name="TenThuoc" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="HamLuong">Hàm lượng</label>
+                        <input type="text" class="form-control" id="editHamLuong" name="HamLuong" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="HoatChat">Hoạt chất</label>
+                        <input type="text" class="form-control" id="editHoatChat" name="HoatChat" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="DonViTinh">Đơn vị tính</label>
+                        <input type="text" class="form-control" id="editDonViTinh" name="DonViTinh" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Gia">Giá</label>
+                        <input type="text" class="form-control" id="editGia" name="Gia" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="MaNhom">Nhóm thuốc</label>
+                        <select class="form-control" id="editMaNhom" name="MaNhom" required>
+                            <option value="">Chọn nhóm thuốc</option>
+                            @foreach (var nhom in ViewBag.NhomThuocs)
+                            {
+                                <option value="@nhom.MaNhom">@nhom.TenNhom</option>
+                            }
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    function openEditModal(maThuoc, tenThuoc, hamLuong, hoatChat, donViTinh, Gia, maNhom) {
+        document.getElementById('editMaThuoc').value = maThuoc;
+        document.getElementById('editTenThuoc').value = tenThuoc;
+        document.getElementById('editHamLuong').value = hamLuong;
+        document.getElementById('editHoatChat').value = hoatChat;
+        document.getElementById('editDonViTinh').value = donViTinh;
+        document.getElementById('editGia').value = Gia;
+        document.getElementById('editMaNhom').value = maNhom;
+
+        var form = document.getElementById('editForm');
+        form.action = "/Dashboard/Thuoc/Edit/" + maThuoc;
+    }
+</script>
+
+<script>
+    $('#editForm').on('submit', function (e) {
+        e.preventDefault();
+
+        var form = $(this);
+        $.ajax({
+            type: form.attr('method'),
+            url: form.attr('action'),
+            data: form.serialize(),
+            success: function () {
+                alert('Cập nhật thành công!');
+                location.reload();
+            },
+            error: function () {
+                alert('Có lỗi xảy ra khi cập nhật.');
+            }
+        });
+    });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('#searchInput').on('input', function () {
+            var searchQuery = $(this).val();
+
+            $.ajax({
+                url: '/Dashboard/Thuoc/Search', 
+                type: 'GET',
+                data: { query: searchQuery },
+                success: function (data) {
+                    $('#thuocTable tbody').html(data);
+                }
+            });
+        });
+    });
+</script>

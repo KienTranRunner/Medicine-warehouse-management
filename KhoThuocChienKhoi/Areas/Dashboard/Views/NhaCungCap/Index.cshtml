@@ -1,0 +1,217 @@
+@{
+    ViewData["Title"] = "Nhà cung cấp ";
+}
+@{
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Danh sách nhà cung cấp</h4>
+            <button type="button" class="btn btn-danger btn-icon-text" data-toggle="modal" data-target="#createModal">
+                <i class=" fa fa-plus btn-icon-prepend"></i> Thêm nhà cung cấp </button>
+
+
+
+            <form class="search-form mt-4" action="#" onsubmit="return false;">
+                <input type="search" id="searchInput" class="form-control" placeholder="Tìm kiếm nhà cung cấp"
+                    title="Search here">
+            </form>
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Tên nhà cung cấp</th>
+                            <th>Địa chỉ</th>
+                            <th>Số điện thoại</th>
+                            <th>Hàng động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nhaCungCapTableBody">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TenNhaCungCap</td>
+                                <td>@item.DiaChi</td>
+                                <td>@item.SoDienThoai</td>
+                                <td>
+                                    <button type="button" class="btn btn-primary btn-icon-text" data-toggle="modal"
+                                        data-target="#editModal"
+                                        onclick="openEditModal(@item.MaNhaCungCap, '@item.TenNhaCungCap', '@item.DiaChi', '@item.SoDienThoai')">
+                                        <i class="fa fa-file btn-icon-prepend"></i> Sửa
+                                    </button>
+
+                                    <button type="button" class="btn btn-danger btn-icon-text"
+                                        onclick="confirmDelete(@item.MaNhaCungCap)">
+                                        <i class="fa fa-trash btn-icon-prepend"></i> Xoá
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Thêm nhà cung cấp mới</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="/Dashboard/NhaCungCap/Create" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group">
+                        <label for="TenNhaCungCap">Tên nhà cung cấp</label>
+                        <input type="text" class="form-control" id="TenNhaCungCap" name="TenNhaCungCap" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="DiaChi">Địa chỉ</label>
+                        <input type="text" class="form-control" id="DiaChi" name="DiaChi">
+                    </div>
+                    <div class="form-group">
+                        <label for="SoDienThoai">Số điện thoại</label>
+                        <input type="text" class="form-control" id="SoDienThoai" name="SoDienThoai">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Sửa thông tin nhà cung cấp</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="_method" value="put" />
+                    <div class="form-group">
+                        <label for="editMaNhaCungCap">Mã nhà cung cấp</label>
+                        <input type="number" class="form-control" id="editMaNhaCungCap" name="MaNhaCungCap" readonly />
+                    </div>
+                    <div class="form-group">
+                        <label for="TenNhaCungCap">Tên nhà cung cấp</label>
+                        <input type="text" class="form-control" id="editTenNhaCungCap" name="TenNhaCungCap" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="DiaChi">Địa chỉ</label>
+                        <input type="text" class="form-control" id="editDiaChi" name="DiaChi" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="SoDienThoai">Số điện thoại</label>
+                        <input type="text" class="form-control" id="editSoDienThoai" name="SoDienThoai" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function openEditModal(maNhaCungCap, tenNhaCungCap, diaChi, soDienThoai) {
+        document.getElementById('editMaNhaCungCap').value = maNhaCungCap;
+        document.getElementById('editTenNhaCungCap').value = tenNhaCungCap;
+        document.getElementById('editDiaChi').value = diaChi;
+        document.getElementById('editSoDienThoai').value = soDienThoai;
+
+        var form = document.getElementById('editForm');
+        form.action = "/Dashboard/NhaCungCap/Edit/" + maNhaCungCap;
+    }
+
+</script>
+
+<script>
+    $('#editForm').on('submit', function (e) {
+        e.preventDefault();
+
+        var form = $(this);
+        $.ajax({
+            type: form.attr('method'),
+            url: form.attr('action'),
+            data: form.serialize(),
+            success: function () {
+                alert('Cập nhật thành công!');
+                location.reload();
+            },
+            error: function () {
+                alert('Có lỗi xảy ra khi cập nhật.');
+            }
+        });
+    });
+
+</script>
+
+<script>
+    function confirmDelete(id) {
+        if (confirm('Bạn có chắc chắn muốn xoá nhà cung cấp này?')) {
+            $.ajax({
+                url: '/Dashboard/NhaCungCap/Delete/' + id,
+                type: 'POST',
+                data: {
+                    __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                },
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        location.reload();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Đã xảy ra lỗi không xác định.');
+                }
+            });
+        }
+    }
+
+
+    $(document).ready(function () {
+        $('#searchInput').on('input', function () {
+            var searchQuery = $(this).val();
+
+            $.ajax({
+                url: '/Dashboard/NhaCungCap/Search',
+                type: 'GET',
+                data: { query: searchQuery },
+                success: function (data) {
+                    $('#nhaCungCapTableBody').html(data);
+                },
+                error: function () {
+                    alert("Không thể tải dữ liệu tìm kiếm.");
+                }
+            });
+        });
+    });
+</script>

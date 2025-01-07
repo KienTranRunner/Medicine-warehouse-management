@@ -1,0 +1,28 @@
+@model IEnumerable<dynamic>
+
+
+@foreach (var item in Model)
+{
+    <tr>
+    <td>@item.TenThuoc</td>
+    <td>@item.HamLuong</td>
+    <td>@item.HoatChat</td>
+    <td>@item.DonViTinh</td>
+    <td>@item.TonCuoi</td>
+    <td>
+        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modalChiTietLo"
+            onclick="loadChiTietLo(@item.MaThuoc)">
+            Chi tiết lô
+        </button>
+    </td>
+    <td>
+        <input type="number" class="form-control" id="soLuongThucTe_@item.MaTon" value="@item.SoLuongThucTe" />
+    </td>
+    <td>@item.TongHuHong</td>
+    <td>@item.ChenhLech</td>
+    <td>
+        <button class="btn btn-success btn-sm" onclick="capNhatKiemKho(@item.MaTon)">Cập
+            nhật</button>
+    </td>
+</tr>
+}

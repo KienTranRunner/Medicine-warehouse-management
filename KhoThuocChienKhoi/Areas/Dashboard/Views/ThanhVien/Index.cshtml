@@ -1,0 +1,412 @@
+@{
+    ViewData["Title"] = "Thành Viên ";
+}
+@{
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+
+
+
+
+<div class="col-lg-12 grid-margin stretch-card w3-animate-left">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Danh sách nhân viên</h4>
+            <button type="button" class="btn btn-danger btn-icon-text" data-toggle="modal" data-target="#createModal">
+                <i class=" fa fa-plus btn-icon-prepend"></i> Thêm nhân viên </button>
+
+
+            <form class="search-form mt-4" action="#" onsubmit="return false;">
+                <input type="search" id="searchInput" class="form-control" placeholder="Tìm kiếm nhân viên"
+                    title="Search here">
+            </form>
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Mã tài khoản</th>
+                            <th>Mã nhân viên</th>
+                            <th>Họ và Tên</th>
+                            <th>Vai trò</th>
+                            <th>Hàng động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="thanhVienTableBody">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MaTaiKhoan</td>
+                                <td>@item.MaNhanVien</td>
+                                <td>@item.HoTen</td>
+                                <td>@item.VaiTro</td>
+                                <td>
+                                    <button type="button" class="btn btn-primary btn-icon-text" data-toggle="modal"
+                                        data-target="#editModal"
+                                        onclick="openEditModal(@item.MaTaiKhoan, '@item.MaNhanVien', '@item.HoTen', '@item.VaiTro')">
+                                        <i class="fa fa-file btn-icon-prepend"></i> Sửa
+                                    </button>
+
+                                    <button type="button" class="btn btn-primary btn-icon-text" data-toggle="modal"
+                                        onclick="openUpdatePasswordModal(@item.MaTaiKhoan)">
+                                        <i class="fa fa-edit btn-icon-prepend"></i> Cập nhật mật khẩu
+                                    </button>
+
+
+                                    <button type="button" class="btn btn-danger btn-icon-text"
+                                        onclick="confirmDelete(@item.MaTaiKhoan)">
+                                        <i class="fa fa-trash btn-icon-prepend"></i> Xoá
+                                    </button>
+
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Thêm nhân viên mới</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="/Dashboard/ThanhVien/Create" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <label for="MaNhanVien">Mã nhân viên</label>
+                        <input type="number" class="form-control" id="MaNhanVien" name="MaNhanVien" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="MatKhau">Mật khẩu</label>
+                        <input type="password" class="form-control" id="MatKhau" name="MatKhau" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ConfirmMatKhau">Nhập lại mật khẩu</label>
+                        <input type="password" class="form-control" id="ConfirmMatKhau" name="confirmMatKhau" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="HoTen">Họ và tên</label>
+                        <input type="text" class="form-control" id="HoTen" name="HoTen">
+                    </div>
+                    <div class="form-group">
+                        <label>Vai trò</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="VaiTroAdmin" name="VaiTro" value="Admin"
+                                required="" style="
+                                                    margin-left: 0px;
+                                                    margin-bottom: 0px;
+                                                    margin-top: 0px;">
+                            <label class="form-check-label" for="VaiTroAdmin">Admin</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="VaiTroUser" name="VaiTro" value="User"
+                                required="" style="
+                                                    margin-left: 0px;
+                                                    margin-bottom: 0px;
+                                                    margin-top: 0px;">
+                            <label class="form-check-label" for="VaiTroUser">User</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-icon-text">
+                        <i class="fa fa-save btn-icon-prepend"></i> Lưu
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var errorMessage = '@Html.Raw(TempData["ErrorMessage"])';
+        if (errorMessage) {
+            alert(errorMessage);
+            $('#createModal').modal('show');
+        }
+    });
+</script>
+
+
+
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Sửa thông tin nhân viên</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="_method" value="put" />
+
+                    <!-- Displaying MaTaiKhoan as visible -->
+                    <div class="form-group">
+                        <label for="editMaTaiKhoan">Mã tài khoản</label>
+                        <input type="number" class="form-control" id="editMaTaiKhoan" name="MaTaiKhoan" readonly />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="MaNhanVien">Mã nhân viên</label>
+                        <input type="number" class="form-control" id="editMaNhanVien" name="MaNhanVien" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="HoTen">Họ và tên</label>
+                        <input type="text" class="form-control" id="editHoTen" name="HoTen" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Vai trò</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="editVaiTroAdmin" name="VaiTro"
+                                value="Admin" required style="
+                                                    margin-left: 0px;
+                                                    margin-bottom: 0px;
+                                                    margin-top: 0px;">
+                            <label class="form-check-label" for="editVaiTroAdmin">Admin</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="editVaiTroUser" name="VaiTro" value="User"
+                                required style="
+                                                    margin-left: 0px;
+                                                    margin-bottom: 0px;
+                                                    margin-top: 0px;">
+                            <label class="form-check-label" for="editVaiTroUser">User</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    function openEditModal(maTaiKhoan, maNhanVien, hoTen, vaiTro) {
+        // Gán giá trị cho các input
+        document.getElementById('editMaTaiKhoan').value = maTaiKhoan;
+        document.getElementById('editMaNhanVien').value = maNhanVien;
+        document.getElementById('editHoTen').value = hoTen;
+
+        // Reset trạng thái radio button
+        document.querySelectorAll('input[name="VaiTro"]').forEach((radio) => {
+            radio.checked = false;
+        });
+
+        // Check radio button tương ứng với vai trò
+        if (vaiTro === 'Admin') {
+            document.getElementById('editVaiTroAdmin').checked = true;
+        } else if (vaiTro === 'User') {
+            document.getElementById('editVaiTroUser').checked = true;
+        }
+
+        // Thiết lập action cho form
+        var form = document.getElementById('editForm');
+        form.action = "/Dashboard/ThanhVien/Edit/" + maTaiKhoan;
+    }
+
+
+
+</script>
+
+<script>
+    $('#editForm').on('submit', function (e) {
+        e.preventDefault();
+
+        var form = $(this);
+        $.ajax({
+            type: form.attr('method'),
+            url: form.attr('action'),
+            data: form.serialize(),
+            success: function () {
+                alert('Cập nhật thành công!');
+                location.reload();
+            },
+            error: function () {
+                alert('Có lỗi xảy ra khi cập nhật.');
+            }
+        });
+    });
+
+</script>
+
+
+
+
+
+<script>
+    function confirmDelete(id) {
+        if (confirm('Bạn có chắc chắn muốn xoá nhân viên này?')) {
+            $.ajax({
+                url: '/Dashboard/ThanhVien/Delete/' + id,
+                type: 'POST',
+                data: {
+                    __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                },
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        location.reload();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Đã xảy ra lỗi không xác định.');
+                }
+            });
+        }
+    }
+
+
+    $(document).ready(function () {
+        $('#searchInput').on('input', function () {
+            var searchQuery = $(this).val();
+
+            $.ajax({
+                url: '/Dashboard/ThanhVien/Search',
+                type: 'GET',
+                data: { query: searchQuery },
+                success: function (data) {
+                    $('#thanhVienTableBody').html(data);
+                },
+                error: function () {
+                    alert("Không thể tải dữ liệu tìm kiếm.");
+                }
+            });
+        });
+    });
+
+
+
+</script>
+
+
+<div class="modal fade" id="updatePasswordModal" tabindex="-1" role="dialog" aria-labelledby="updatePasswordLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updatePasswordLabel">Cập nhật mật khẩu</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="updatePasswordForm">
+                    <input type="hidden" id="updateMaTaiKhoan" />
+                    <div class="form-group">
+                        <label for="newPassword">Mật khẩu mới</label>
+                        <input type="password" class="form-control" id="newPassword" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Xác nhận mật khẩu</label>
+                        <input type="password" class="form-control" id="confirmPassword" required />
+                    </div>
+                    <div id="passwordError" class="text-danger"></div>
+
+
+                    <button type="button" id="submitPasswordButton" class="btn btn-primary mt-4">Lưu thay đổi</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchQuery = $(this).val();
+
+                $.ajax({
+                    url: '/Dashboard/TonKho/Search',
+                    type: 'GET',
+                    data: { query: searchQuery },
+                    success: function (data) {
+                        $('#tonKhoTableBody').html(data);
+                    },
+                    error: function () {
+                        alert("Không thể tải dữ liệu tìm kiếm.");
+                    }
+                });
+            });
+        });
+
+
+    </script>
+    <script>
+        function openUpdatePasswordModal(maTaiKhoan) {
+            // Gán mã tài khoản vào input ẩn trong modal
+            document.getElementById("updateMaTaiKhoan").value = maTaiKhoan;
+            // Mở modal
+            $('#updatePasswordModal').modal('show');
+        }
+
+        document.getElementById('submitPasswordButton').addEventListener('click', function (event) {
+            event.preventDefault(); // Ngăn chặn hành động mặc định của form
+
+            const maTaiKhoan = document.getElementById("updateMaTaiKhoan").value;
+            const newPassword = document.getElementById("newPassword").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
+
+            // Kiểm tra mật khẩu khớp nhau
+            if (newPassword !== confirmPassword) {
+                document.getElementById("passwordError").innerText = "Mật khẩu không khớp.";
+                return;
+            }
+
+            // Gửi yêu cầu cập nhật mật khẩu
+            fetch(`/Dashboard/ThanhVien/UpdatePassword/${maTaiKhoan}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val(),
+                },
+                body: JSON.stringify(newPassword),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(data.message);
+                        $('#updatePasswordModal').modal('hide');
+                        location.reload();
+                    } else {
+                        document.getElementById("passwordError").innerText = data.message;
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        $(document).ready(function () {
+            $('#updatePasswordModal .close').on('click', function () {
+                $('#updatePasswordModal').modal('hide');
+            });
+        });
+
+
+
+
+    </script>
+}

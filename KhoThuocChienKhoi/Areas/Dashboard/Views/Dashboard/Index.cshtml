@@ -1,0 +1,216 @@
+@using System.Globalization
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Areas/Dashboard/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mb-4">
+            <div class="statistics-details d-flex align-items-center justify-content-between">
+                <!-- Thẻ tổng giá nhập -->
+                <div class="stat-card bg-gradient-primary text-white">
+                    <i class="mdi mdi-cart-outline stat-icon"></i>
+                    <p class="statistics-title">Tổng giá nhập tháng này</p>
+                    <h3>@ViewBag.TotalExpenseThisMonth.ToString("C0", new CultureInfo("vi-VN"))</h3>
+                </div>
+                <!-- Thẻ tổng giá xuất -->
+                <div class="stat-card bg-gradient-success text-white">
+                    <i class="mdi mdi-cash stat-icon"></i>
+                    <p class="statistics-title">Tổng giá xuất tháng này</p>
+                    <h3>@ViewBag.TotalRevenueThisMonth.ToString("C0", new CultureInfo("vi-VN"))</h3>
+                </div>
+                <!-- Thẻ lô thuốc hết hạn -->
+                <div class="stat-card bg-gradient-danger text-white">
+                    <i class="mdi mdi-alert-circle-outline stat-icon"></i>
+                    <p class="statistics-title">Lô thuốc hết hạn tháng</p>
+                    <h3>@ViewBag.ExpiredLotsThisMonth</h3>
+                </div>
+                <!-- Thẻ tổng phiếu nhập -->
+                <div class="stat-card bg-gradient-info text-white">
+                    <i class="mdi mdi-file-document-outline stat-icon"></i>
+                    <p class="statistics-title">Tổng phiếu nhập tháng</p>
+                    <h3>@ViewBag.TotalPhieuNhapThisMonth</h3>
+                </div>
+                <!-- Thẻ tổng phiếu xuất -->
+                <div class="stat-card bg-gradient-warning text-white">
+                    <i class="mdi mdi-truck-outline stat-icon"></i>
+                    <p class="statistics-title">Tổng phiếu xuất tháng</p>
+                    <h3>@ViewBag.TotalPhieuXuatThisMonth</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Biểu đồ doanh thu -->
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h4 class="card-title">Doanh thu theo tháng</h4>
+                    <canvas id="areaChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card shadow" style="height: 440px;">
+                <div class="card-body">
+                    <h4 class="card-title">Thuốc được mua nhiều nhất tháng này</h4>
+                    <canvas id="pieChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Line Chart
+            const chartData = @Html.Raw(Json.Serialize(ViewBag.ChartData));
+            const labels = chartData.map(d => `${d.month}/${d.year}`);
+            const expenses = chartData.map(d => d.totalExpense);
+            const revenue = chartData.map(d => d.totalRevenue);
+            const profit = chartData.map(d => d.profit);
+
+            const ctx = document.getElementById('areaChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Nhập',
+                            data: expenses,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            fill: true,
+                        },
+                        {
+                            label: 'Xuất',
+                            data: revenue,
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            fill: true,
+                        },
+                        {
+                            label: 'Lợi nhuận',
+                            data: profit,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            fill: true,
+                        },
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: { title: { display: true, text: 'Tháng' } },
+                        y: { title: { display: true, text: 'Tiền' } }
+                    }
+                }
+            });
+
+            // Doughnut Chart (PieChart chuyển thành Doughnut với logic dữ liệu rỗng)
+            const thuocMuaNhieu = @Html.Raw(Json.Serialize(ViewBag.ThuocXuatNhieu));
+            const pieLabels = thuocMuaNhieu.map(t => t.tenThuoc);
+            const pieData = thuocMuaNhieu.map(t => t.soLuongXuat);
+
+            const isEmpty = pieData.every(data => data === 0); // Kiểm tra dữ liệu rỗng
+            const pieCtx = document.getElementById('pieChart').getContext('2d');
+
+            new Chart(pieCtx, {
+                type: 'doughnut', // Chuyển thành Doughnut
+                data: {
+                    labels: isEmpty ? ['Không có dữ liệu'] : pieLabels,
+                    datasets: [{
+                        data: isEmpty ? [1] : pieData,
+                        backgroundColor: isEmpty ? ['#d3d3d3'] : [
+                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'
+                        ],
+                        borderColor: isEmpty ? ['#d3d3d3'] : [
+                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            enabled: !isEmpty 
+                        }
+                    },
+                    animation: {
+                        animateRotate: true,
+                        animateScale: true
+                    }
+                }
+            });
+        });
+    </script>
+}
+
+@section Styles {
+    <style>
+        /* CSS custom cho Dashboard Index */
+        .stat-card {
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            flex: 1;
+            text-align: center;
+            margin-right: 10px;
+            min-width: 150px;
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: scale(1.05);
+        }
+
+        .stat-card .statistics-title {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .stat-card .stat-icon {
+            font-size: 30px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            opacity: 0.3;
+        }
+
+        .bg-gradient-primary {
+            background: linear-gradient(45deg, #007bff, #6610f2);
+        }
+
+        .bg-gradient-success {
+            background: linear-gradient(45deg, #28a745, #20c997);
+        }
+
+        .bg-gradient-danger {
+            background: linear-gradient(45deg, #dc3545, #ff6f61);
+        }
+
+        .bg-gradient-info {
+            background: linear-gradient(45deg, #17a2b8, #1e90ff);
+        }
+
+        .bg-gradient-warning {
+            background: linear-gradient(45deg, #ffc107, #fd7e14);
+        }
+
+        .card {
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+}

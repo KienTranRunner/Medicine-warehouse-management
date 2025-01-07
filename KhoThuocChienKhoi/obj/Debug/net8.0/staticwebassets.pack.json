@@ -1,0 +1,3433 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/obj/Debug/net8.0/scopedcss/projectbundle/KhoThuocChienKhoi.bundle.scp.css",
+      "PackagePath": "staticwebassets/KhoThuocChienKhoi.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/css/light/common.css",
+      "PackagePath": "staticwebassets/css/light/common.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/css/maps/light/common.css.map",
+      "PackagePath": "staticwebassets/css/maps/light/common.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/css/maps/style.css.map",
+      "PackagePath": "staticwebassets/css/maps/style.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Bold.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Bold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Bold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Bold.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Bold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Bold.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Bold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraBold.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraBold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraBold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraBold.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraBold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraBold.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraBold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraLight.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraLight.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraLight.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraLight.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraLight.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-ExtraLight.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-ExtraLight.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Light.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Light.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Light.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Light.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Light.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Light.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Light.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Medium.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Medium.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Medium.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Medium.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Medium.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Medium.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Medium.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Medium.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Regular.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Regular.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Regular.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Regular.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Regular.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-Regular.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-Regular.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-SemiBold.eot",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-SemiBold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-SemiBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-SemiBold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-SemiBold.woff",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-SemiBold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Manrope/Manrope-SemiBold.woff2",
+      "PackagePath": "staticwebassets/fonts/Manrope/Manrope-SemiBold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Black.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Black.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Black.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Black.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Black.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Black.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Black.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Black.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Bold.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Bold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Bold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Bold.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Bold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Bold.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Bold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraBold.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraBold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraBold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraBold.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraBold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraBold.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraBold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraLight.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraLight.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraLight.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraLight.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraLight.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-ExtraLight.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-ExtraLight.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Italic.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Italic.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Italic.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Italic.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Italic.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Italic.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Italic.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Italic.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Light.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Light.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Light.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Light.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Light.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Light.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Light.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Regular.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Regular.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Regular.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Regular.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Regular.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-Regular.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-Regular.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-SemiBold.eot",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-SemiBold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-SemiBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-SemiBold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-SemiBold.woff",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-SemiBold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Nunito/Nunito-SemiBold.woff2",
+      "PackagePath": "staticwebassets/fonts/Nunito/Nunito-SemiBold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Black.eot",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Black.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Black.ttf",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Black.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Black.woff",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Black.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Black.woff2",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Black.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Bold.eot",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Bold.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Bold.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Bold.woff",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Bold.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Bold.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Light.eot",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Light.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Light.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Light.woff",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Light.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Light.woff2",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Light.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Medium.eot",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Medium.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Medium.woff",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Medium.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Medium.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Regular.eot",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Regular.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Regular.woff",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Regular.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/fonts/Roboto/Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets/fonts/Roboto/Roboto-Regular.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/Chienkhoi.png",
+      "PackagePath": "staticwebassets/images/Chienkhoi.png"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/Chienkhoilogo.png",
+      "PackagePath": "staticwebassets/images/Chienkhoilogo.png"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/arrow-down-dark.svg",
+      "PackagePath": "staticwebassets/images/arrow-down-dark.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/arrow-down.svg",
+      "PackagePath": "staticwebassets/images/arrow-down.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/dashboard/darkBG.png",
+      "PackagePath": "staticwebassets/images/dashboard/darkBG.png"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face1.jpg",
+      "PackagePath": "staticwebassets/images/faces/face1.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face10.jpg",
+      "PackagePath": "staticwebassets/images/faces/face10.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face11.jpg",
+      "PackagePath": "staticwebassets/images/faces/face11.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face12.jpg",
+      "PackagePath": "staticwebassets/images/faces/face12.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face13.jpg",
+      "PackagePath": "staticwebassets/images/faces/face13.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face14.jpg",
+      "PackagePath": "staticwebassets/images/faces/face14.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face15.jpg",
+      "PackagePath": "staticwebassets/images/faces/face15.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face16.jpg",
+      "PackagePath": "staticwebassets/images/faces/face16.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face17.jpg",
+      "PackagePath": "staticwebassets/images/faces/face17.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face18.jpg",
+      "PackagePath": "staticwebassets/images/faces/face18.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face19.jpg",
+      "PackagePath": "staticwebassets/images/faces/face19.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face2.jpg",
+      "PackagePath": "staticwebassets/images/faces/face2.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face20.jpg",
+      "PackagePath": "staticwebassets/images/faces/face20.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face21.jpg",
+      "PackagePath": "staticwebassets/images/faces/face21.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face22.jpg",
+      "PackagePath": "staticwebassets/images/faces/face22.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face23.jpg",
+      "PackagePath": "staticwebassets/images/faces/face23.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face24.jpg",
+      "PackagePath": "staticwebassets/images/faces/face24.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face25.jpg",
+      "PackagePath": "staticwebassets/images/faces/face25.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face26.jpg",
+      "PackagePath": "staticwebassets/images/faces/face26.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face27.jpg",
+      "PackagePath": "staticwebassets/images/faces/face27.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face3.jpg",
+      "PackagePath": "staticwebassets/images/faces/face3.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face4.jpg",
+      "PackagePath": "staticwebassets/images/faces/face4.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face5.jpg",
+      "PackagePath": "staticwebassets/images/faces/face5.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face6.jpg",
+      "PackagePath": "staticwebassets/images/faces/face6.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face7.jpg",
+      "PackagePath": "staticwebassets/images/faces/face7.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face8.jpg",
+      "PackagePath": "staticwebassets/images/faces/face8.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/face9.jpg",
+      "PackagePath": "staticwebassets/images/faces/face9.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/faces/profile/profile.jpg",
+      "PackagePath": "staticwebassets/images/faces/profile/profile.jpg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/favicon.ico",
+      "PackagePath": "staticwebassets/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/logo-dark.svg",
+      "PackagePath": "staticwebassets/images/logo-dark.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/logo-light-1.svg",
+      "PackagePath": "staticwebassets/images/logo-light-1.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/logo-light.svg",
+      "PackagePath": "staticwebassets/images/logo-light.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/logo-mini-reverse.svg",
+      "PackagePath": "staticwebassets/images/logo-mini-reverse.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/logo-mini.svg",
+      "PackagePath": "staticwebassets/images/logo-mini.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/images/logo.svg",
+      "PackagePath": "staticwebassets/images/logo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/Chart.roundedBarCharts.js",
+      "PackagePath": "staticwebassets/js/Chart.roundedBarCharts.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/chart.js",
+      "PackagePath": "staticwebassets/js/chart.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/codemirror.js",
+      "PackagePath": "staticwebassets/js/codemirror.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/dashboard.js",
+      "PackagePath": "staticwebassets/js/dashboard.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/file-upload.js",
+      "PackagePath": "staticwebassets/js/file-upload.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/hoverable-collapse.js",
+      "PackagePath": "staticwebassets/js/hoverable-collapse.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/jquery-file-upload.js",
+      "PackagePath": "staticwebassets/js/jquery-file-upload.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/jquery.cookie.js",
+      "PackagePath": "staticwebassets/js/jquery.cookie.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/off-canvas.js",
+      "PackagePath": "staticwebassets/js/off-canvas.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/select.dataTables.min.css",
+      "PackagePath": "staticwebassets/js/select.dataTables.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/select2.js",
+      "PackagePath": "staticwebassets/js/select2.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/settings.js",
+      "PackagePath": "staticwebassets/js/settings.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/template.js",
+      "PackagePath": "staticwebassets/js/template.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/todolist.js",
+      "PackagePath": "staticwebassets/js/todolist.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/js/typeahead.js",
+      "PackagePath": "staticwebassets/js/typeahead.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/_layouts.scss",
+      "PackagePath": "staticwebassets/scss/_layouts.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/_sidebar.scss",
+      "PackagePath": "staticwebassets/scss/_sidebar.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/_variables.scss",
+      "PackagePath": "staticwebassets/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets/scss/_vertical-wrapper.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/fonts/Manrope/Manrope-Light.eot",
+      "PackagePath": "staticwebassets/scss/fonts/Manrope/Manrope-Light.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_background.scss",
+      "PackagePath": "staticwebassets/scss/light/_background.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_dashboard.scss",
+      "PackagePath": "staticwebassets/scss/light/_dashboard.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_demo.scss",
+      "PackagePath": "staticwebassets/scss/light/_demo.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_fonts.scss",
+      "PackagePath": "staticwebassets/scss/light/_fonts.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_footer.scss",
+      "PackagePath": "staticwebassets/scss/light/_footer.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_functions.scss",
+      "PackagePath": "staticwebassets/scss/light/_functions.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_misc.scss",
+      "PackagePath": "staticwebassets/scss/light/_misc.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_reset.scss",
+      "PackagePath": "staticwebassets/scss/light/_reset.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_typography.scss",
+      "PackagePath": "staticwebassets/scss/light/_typography.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_utilities.scss",
+      "PackagePath": "staticwebassets/scss/light/_utilities.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/_variables.scss",
+      "PackagePath": "staticwebassets/scss/light/_variables.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/common.scss",
+      "PackagePath": "staticwebassets/scss/light/common.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_badges.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_badges.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_breadcrumbs.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_breadcrumbs.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_buttons.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_buttons.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_cards.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_cards.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_checkbox-radio.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_checkbox-radio.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_dropdown.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_forms.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_forms.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_icons.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_icons.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_lists.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_lists.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_material-forms.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_material-forms.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_preview.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_preview.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_tables.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_tables.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_tabs.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_tabs.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/_todo-list.scss",
+      "PackagePath": "staticwebassets/scss/light/components/_todo-list.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_bar-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_bar-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_circle-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_circle-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_colored-balls.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_colored-balls.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_dot-opacity-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_dot-opacity-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_flip-square-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_flip-square-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_glowing-ball.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_glowing-ball.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_jumping-dots-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_jumping-dots-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_loaders.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_loaders.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_moving-square-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_moving-square-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_pixel-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_pixel-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_square-box.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_square-box.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_square-path-loader.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_square-path-loader.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/loaders/_variables.scss",
+      "PackagePath": "staticwebassets/scss/light/components/loaders/_variables.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/plugin-overrides/_codemirror.scss",
+      "PackagePath": "staticwebassets/scss/light/components/plugin-overrides/_codemirror.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/plugin-overrides/_datepicker.scss",
+      "PackagePath": "staticwebassets/scss/light/components/plugin-overrides/_datepicker.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/plugin-overrides/_select2.scss",
+      "PackagePath": "staticwebassets/scss/light/components/plugin-overrides/_select2.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/components/plugin-overrides/_typeahead.scss",
+      "PackagePath": "staticwebassets/scss/light/components/plugin-overrides/_typeahead.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/landing-screens/_auth.scss",
+      "PackagePath": "staticwebassets/scss/light/landing-screens/_auth.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_animation.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_animation.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_badges.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_badges.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_blockqoute.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_blockqoute.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_breadcrumbs.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_breadcrumbs.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_cards.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_cards.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_misc.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_misc.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_no-ui-slider.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_no-ui-slider.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_popovers.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_popovers.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/light/mixins/_tooltips.scss",
+      "PackagePath": "staticwebassets/scss/light/mixins/_tooltips.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/scss/style.scss",
+      "PackagePath": "staticwebassets/scss/style.scss"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/bootstrap-maxlength/bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets/vendors/bootstrap-maxlength/bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/chart.js/chart.umd.js",
+      "PackagePath": "staticwebassets/vendors/chart.js/chart.umd.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/codemirror/ambiance.css",
+      "PackagePath": "staticwebassets/vendors/codemirror/ambiance.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/codemirror/codemirror.css",
+      "PackagePath": "staticwebassets/vendors/codemirror/codemirror.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/codemirror/codemirror.js",
+      "PackagePath": "staticwebassets/vendors/codemirror/codemirror.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/codemirror/javascript.js",
+      "PackagePath": "staticwebassets/vendors/codemirror/javascript.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/codemirror/shell.js",
+      "PackagePath": "staticwebassets/vendors/codemirror/shell.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/css/vendor.bundle.base.css",
+      "PackagePath": "staticwebassets/vendors/css/vendor.bundle.base.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/datatables.net-bs4/dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets/vendors/datatables.net-bs4/dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/datatables.net/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/vendors/datatables.net/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/feather/feather.css",
+      "PackagePath": "staticwebassets/vendors/feather/feather.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/feather/fonts/feather-webfont.eot",
+      "PackagePath": "staticwebassets/vendors/feather/fonts/feather-webfont.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/feather/fonts/feather-webfont.svg",
+      "PackagePath": "staticwebassets/vendors/feather/fonts/feather-webfont.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/feather/fonts/feather-webfont.ttf",
+      "PackagePath": "staticwebassets/vendors/feather/fonts/feather-webfont.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/feather/fonts/feather-webfont.woff",
+      "PackagePath": "staticwebassets/vendors/feather/fonts/feather-webfont.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/css/flag-icons.min.css",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/css/flag-icons.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ac.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ac.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ad.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ad.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ae.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ae.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/af.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/af.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ag.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ag.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ai.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ai.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/al.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/al.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/am.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/am.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ao.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ao.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/aq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/aq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ar.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ar.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/as.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/as.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/at.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/at.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/au.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/au.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/aw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/aw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ax.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ax.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/az.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/az.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ba.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ba.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/be.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/be.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/br.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/br.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bs.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bs.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/by.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/by.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/bz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/bz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ca.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ca.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ch.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ch.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ci.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ci.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ck.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ck.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/co.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/co.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/cz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/cz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/de.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/de.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/dg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/dg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/dj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/dj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/dk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/dk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/dm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/dm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/do.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/do.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/dz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/dz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ea.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ea.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ec.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ec.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ee.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ee.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/eg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/eg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/eh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/eh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/er.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/er.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/es-ct.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/es-ct.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/es-ga.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/es-ga.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/es.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/es.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/et.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/et.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/eu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/eu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/fi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/fi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/fj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/fj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/fk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/fk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/fm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/fm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/fo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/fo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/fr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/fr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ga.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ga.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gb-eng.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gb-eng.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gb-nir.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gb-nir.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gb-sct.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gb-sct.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gb-wls.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gb-wls.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ge.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ge.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gs.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gs.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/gy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/gy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/hk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/hk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/hm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/hm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/hn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/hn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/hr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/hr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ht.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ht.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/hu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/hu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ic.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ic.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/id.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/id.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ie.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ie.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/il.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/il.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/im.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/im.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/in.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/in.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/io.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/io.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/iq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/iq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ir.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ir.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/is.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/is.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/it.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/it.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/je.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/je.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/jm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/jm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/jo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/jo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/jp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/jp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ke.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ke.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ki.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ki.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/km.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/km.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ky.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ky.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/kz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/kz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/la.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/la.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/li.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/li.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ls.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ls.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/lv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/lv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ly.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ly.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ma.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ma.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/md.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/md.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/me.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/me.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ml.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ml.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ms.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ms.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/my.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/my.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/mz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/mz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/na.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/na.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/nc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/nc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ne.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ne.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/nf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/nf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ng.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ng.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ni.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ni.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/nl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/nl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/no.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/no.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/np.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/np.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/nr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/nr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/nu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/nu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/nz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/nz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/om.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/om.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pa.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pa.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pe.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pe.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ph.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ph.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ps.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ps.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/pw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/pw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/py.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/py.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/qa.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/qa.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/re.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/re.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ro.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ro.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/rs.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/rs.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ru.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ru.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/rw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/rw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sa.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sa.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/se.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/se.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/si.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/si.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/so.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/so.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ss.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ss.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/st.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/st.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/sz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/sz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ta.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ta.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/td.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/td.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/th.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/th.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/to.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/to.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/tz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/tz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ua.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ua.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ug.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ug.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/um.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/um.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/un.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/un.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/us.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/us.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/uy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/uy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/uz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/uz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/va.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/va.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/vc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/vc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ve.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ve.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/vg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/vg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/vi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/vi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/vn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/vn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/vu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/vu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/wf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/wf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ws.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ws.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/xk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/xk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/xx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/xx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/ye.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/ye.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/yt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/yt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/za.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/za.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/zm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/zm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/1x1/zw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/1x1/zw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ac.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ac.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ad.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ad.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ae.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ae.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/af.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/af.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ag.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ag.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ai.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ai.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/al.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/al.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/am.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/am.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ao.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ao.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/aq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/aq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ar.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ar.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/as.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/as.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/at.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/at.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/au.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/au.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/aw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/aw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ax.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ax.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/az.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/az.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ba.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ba.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/be.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/be.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/br.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/br.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bs.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bs.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/by.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/by.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/bz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/bz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ca.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ca.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ch.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ch.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ci.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ci.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ck.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ck.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/co.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/co.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/cz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/cz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/de.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/de.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/dg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/dg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/dj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/dj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/dk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/dk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/dm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/dm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/do.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/do.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/dz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/dz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ea.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ea.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ec.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ec.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ee.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ee.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/eg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/eg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/eh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/eh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/er.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/er.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/es-ct.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/es-ct.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/es-ga.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/es-ga.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/es.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/es.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/et.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/et.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/eu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/eu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/fi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/fi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/fj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/fj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/fk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/fk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/fm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/fm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/fo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/fo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/fr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/fr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ga.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ga.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gb-eng.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gb-eng.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gb-nir.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gb-nir.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gb-sct.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gb-sct.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gb-wls.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gb-wls.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ge.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ge.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gs.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gs.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/gy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/gy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/hk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/hk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/hm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/hm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/hn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/hn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/hr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/hr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ht.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ht.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/hu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/hu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ic.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ic.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/id.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/id.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ie.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ie.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/il.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/il.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/im.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/im.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/in.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/in.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/io.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/io.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/iq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/iq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ir.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ir.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/is.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/is.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/it.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/it.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/je.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/je.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/jm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/jm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/jo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/jo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/jp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/jp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ke.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ke.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ki.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ki.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/km.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/km.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ky.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ky.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/kz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/kz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/la.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/la.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/li.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/li.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ls.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ls.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/lv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/lv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ly.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ly.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ma.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ma.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/md.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/md.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/me.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/me.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ml.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ml.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mo.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mo.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mp.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mp.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mq.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mq.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ms.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ms.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/my.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/my.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/mz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/mz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/na.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/na.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/nc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/nc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ne.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ne.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/nf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/nf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ng.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ng.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ni.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ni.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/nl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/nl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/no.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/no.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/np.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/np.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/nr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/nr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/nu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/nu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/nz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/nz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/om.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/om.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pa.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pa.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pe.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pe.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ph.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ph.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ps.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ps.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/pw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/pw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/py.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/py.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/qa.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/qa.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/re.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/re.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ro.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ro.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/rs.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/rs.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ru.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ru.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/rw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/rw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sa.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sa.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sb.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sb.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sd.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sd.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/se.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/se.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sh.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sh.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/si.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/si.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/so.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/so.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ss.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ss.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/st.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/st.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/sz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/sz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ta.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ta.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/td.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/td.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/th.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/th.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tj.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tj.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tl.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tl.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/to.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/to.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tr.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tr.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tv.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tv.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/tz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/tz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ua.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ua.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ug.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ug.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/um.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/um.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/un.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/un.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/us.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/us.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/uy.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/uy.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/uz.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/uz.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/va.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/va.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/vc.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/vc.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ve.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ve.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/vg.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/vg.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/vi.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/vi.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/vn.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/vn.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/vu.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/vu.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/wf.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/wf.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ws.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ws.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/xk.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/xk.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/xx.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/xx.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/ye.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/ye.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/yt.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/yt.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/za.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/za.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/zm.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/zm.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/flag-icon-css/flags/4x3/zw.svg",
+      "PackagePath": "staticwebassets/vendors/flag-icon-css/flags/4x3/zw.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/vendors/font-awesome/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/vendors/font-awesome/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/vendors/font-awesome/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/vendors/font-awesome/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/vendors/font-awesome/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/vendors/font-awesome/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/font-awesome/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/vendors/font-awesome/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/vendors/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/js/vendor.bundle.base.js",
+      "PackagePath": "staticwebassets/vendors/js/vendor.bundle.base.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/mdi/css/materialdesignicons.min.css",
+      "PackagePath": "staticwebassets/vendors/mdi/css/materialdesignicons.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/mdi/css/materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets/vendors/mdi/css/materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/mdi/fonts/materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets/vendors/mdi/fonts/materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets/vendors/mdi/fonts/materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/mdi/fonts/materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets/vendors/mdi/fonts/materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets/vendors/mdi/fonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/progressbar.js/progressbar.min.js",
+      "PackagePath": "staticwebassets/vendors/progressbar.js/progressbar.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/progressbar.js/progressbar.min.js.map",
+      "PackagePath": "staticwebassets/vendors/progressbar.js/progressbar.min.js.map"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/pwstabs/jquery.pwstabs.min.css",
+      "PackagePath": "staticwebassets/vendors/pwstabs/jquery.pwstabs.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/pwstabs/jquery.pwstabs.min.js",
+      "PackagePath": "staticwebassets/vendors/pwstabs/jquery.pwstabs.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/select2-bootstrap-theme/select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/select2/select2.min.css",
+      "PackagePath": "staticwebassets/vendors/select2/select2.min.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/select2/select2.min.js",
+      "PackagePath": "staticwebassets/vendors/select2/select2.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/simple-line-icons/css/simple-line-icons.css",
+      "PackagePath": "staticwebassets/vendors/simple-line-icons/css/simple-line-icons.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/simple-line-icons/fonts/Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets/vendors/simple-line-icons/fonts/Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/simple-line-icons/fonts/Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets/vendors/simple-line-icons/fonts/Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/simple-line-icons/fonts/Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets/vendors/simple-line-icons/fonts/Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/ti-icons/css/themify-icons.css",
+      "PackagePath": "staticwebassets/vendors/ti-icons/css/themify-icons.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/ti-icons/fonts/themify.eot",
+      "PackagePath": "staticwebassets/vendors/ti-icons/fonts/themify.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/ti-icons/fonts/themify.svg",
+      "PackagePath": "staticwebassets/vendors/ti-icons/fonts/themify.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/ti-icons/fonts/themify.ttf",
+      "PackagePath": "staticwebassets/vendors/ti-icons/fonts/themify.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/ti-icons/fonts/themify.woff",
+      "PackagePath": "staticwebassets/vendors/ti-icons/fonts/themify.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typeahead.js/typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets/vendors/typeahead.js/typeahead.bundle.min.js"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/LICENCE.md",
+      "PackagePath": "staticwebassets/vendors/typicons/LICENCE.md"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/demo.html",
+      "PackagePath": "staticwebassets/vendors/typicons/demo.html"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.css",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.css"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.eot",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.eot"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.json",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.json"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.svg",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.svg"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.ttf",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.ttf"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.woff",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.woff"
+    },
+    {
+      "Id": "/Users/kien283/WebAppKhoThuoc/KhoThuocChienKhoi/wwwroot/vendors/typicons/typicons.woff2",
+      "PackagePath": "staticwebassets/vendors/typicons/typicons.woff2"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.KhoThuocChienKhoi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.KhoThuocChienKhoi.props",
+      "PackagePath": "build\\KhoThuocChienKhoi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.KhoThuocChienKhoi.props",
+      "PackagePath": "buildMultiTargeting\\KhoThuocChienKhoi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.KhoThuocChienKhoi.props",
+      "PackagePath": "buildTransitive\\KhoThuocChienKhoi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
