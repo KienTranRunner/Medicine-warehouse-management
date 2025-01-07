@@ -118,9 +118,6 @@ Dashboard:
 ![image](https://github.com/user-attachments/assets/13cdeb0c-5bde-419e-a586-b1d1ea2973dc)
 
 
-Login Form:
-![image](https://github.com/user-attachments/assets/16049af2-bab2-4b81-a32d-f17af4b956af)
-
 
 
 
