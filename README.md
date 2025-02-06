@@ -114,10 +114,71 @@ Class Diagram:
 
 Any Image in project
 
+SignIn:
+![image](https://github.com/user-attachments/assets/b26139ad-3c56-44b2-a025-84a39bc96648)
+
+
+
 Dashboard:
 ![image](https://github.com/user-attachments/assets/13cdeb0c-5bde-419e-a586-b1d1ea2973dc)
 
 
+
+
+
+User Management:
+![image](https://github.com/user-attachments/assets/05f34bb6-f9ed-4023-b0e2-d840e997f2db)
+
+
+
+Customer Management:
+![image](https://github.com/user-attachments/assets/8e6e8c8b-6b96-42a9-8e89-baade8000f1c)
+
+
+
+
+Medicine Management:
+![image](https://github.com/user-attachments/assets/85185c7f-8091-4b07-927a-be3d9330738b)
+
+
+
+Import Medicine Management:
+![image](https://github.com/user-attachments/assets/d89d3f33-9714-42b8-873b-2d535563b4ce)
+
+
+
+
+Detail Import Medicine:
+![image](https://github.com/user-attachments/assets/bec0e607-e903-4743-8d8d-0d1da82f6d9e)
+
+
+
+
+Export Medicine Management:
+![image](https://github.com/user-attachments/assets/dac60ec9-4459-416e-9785-2af18a8ad485)
+
+
+
+Detail Export Management:
+![image](https://github.com/user-attachments/assets/a5aee3a4-cb19-4909-a007-6be2fbe79c22)
+
+
+
+
+
+Check inventory in stock:
+![image](https://github.com/user-attachments/assets/bac38c20-5978-4313-bbd6-d961d4dd134a)
+
+
+
+
+Check medicine inventory:
+![image](https://github.com/user-attachments/assets/987d9fe9-b3e7-4890-9034-ae0f827b56c5)
+
+
+
+Manage expired medicine inventory:
+<img width="1440" alt="Screenshot 2025-02-06 at 07 07 25" src="https://github.com/user-attachments/assets/0b769103-ffa1-4591-bf09-fc72cfbceb3a" />
 
 
 
